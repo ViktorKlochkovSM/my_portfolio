@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STO_Man_WcfService", "STO_Man_WcfService\STO_Man_WcfService.csproj", "{F9F6DB84-EC6D-4379-98E9-AA3DDF9641D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoDescktopClient", "StoDescktopClient\StoDescktopClient.csproj", "{59064402-C57A-4501-8772-A78819059DBE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F9F6DB84-EC6D-4379-98E9-AA3DDF9641D8} = {F9F6DB84-EC6D-4379-98E9-AA3DDF9641D8}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9F6DB84-EC6D-4379-98E9-AA3DDF9641D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F6DB84-EC6D-4379-98E9-AA3DDF9641D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F6DB84-EC6D-4379-98E9-AA3DDF9641D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F6DB84-EC6D-4379-98E9-AA3DDF9641D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59064402-C57A-4501-8772-A78819059DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59064402-C57A-4501-8772-A78819059DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59064402-C57A-4501-8772-A78819059DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59064402-C57A-4501-8772-A78819059DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A717CAA-B603-4C4E-9E1D-DE07DB8BD082}
+	EndGlobalSection
+EndGlobal

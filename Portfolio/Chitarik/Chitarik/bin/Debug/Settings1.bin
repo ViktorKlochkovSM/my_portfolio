@@ -1,0 +1,41 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENC:Array SOAP-ENC:arrayType="xsd:anyType[7,2]">
+<item id="ref-2" xsi:type="SOAP-ENC:string">fontGlobal</item>
+<item href="#ref-3"/>
+<item id="ref-4" xsi:type="SOAP-ENC:string">glasColor</item>
+<item xsi:type="a2:Color" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<name xsi:null="1"/>
+<value>0</value>
+<knownColor>141</knownColor>
+<state>1</state>
+</item>
+<item id="ref-6" xsi:type="SOAP-ENC:string">soglasColor</item>
+<item xsi:type="a2:Color" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<name xsi:null="1"/>
+<value>0</value>
+<knownColor>35</knownColor>
+<state>1</state>
+</item>
+<item id="ref-7" xsi:type="SOAP-ENC:string">backGrountColor</item>
+<item xsi:type="a2:Color" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<name xsi:null="1"/>
+<value>0</value>
+<knownColor>164</knownColor>
+<state>1</state>
+</item>
+<item id="ref-8" xsi:type="SOAP-ENC:string">showAccent</item>
+<item xsi:type="xsd:boolean">true</item>
+<item id="ref-9" xsi:type="SOAP-ENC:string">isUpperRegister</item>
+<item xsi:type="xsd:boolean">true</item>
+<item id="ref-10" xsi:type="SOAP-ENC:string">textHorizontalAlignment</item>
+<item xsi:type="a3:HorizontalAlignment" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/System.Windows.Forms/System.Windows.Forms%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">Center</item>
+</SOAP-ENC:Array>
+<a2:Font id="ref-3" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<Name id="ref-12">Arial</Name>
+<Size>72</Size>
+<Style xsi:type="a2:FontStyle" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">Bold</Style>
+<Unit xsi:type="a2:GraphicsUnit" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">Point</Unit>
+</a2:Font>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

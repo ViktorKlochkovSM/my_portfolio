@@ -1,0 +1,10 @@
+D:\Viktor\Job\Min_UST\test\STO_Man_WcfService\StoDescktopClient\bin\Debug\StoDescktopClient.exe.config
+D:\Viktor\Job\Min_UST\test\STO_Man_WcfService\StoDescktopClient\bin\Debug\StoDescktopClient.exe
+D:\Viktor\Job\Min_UST\test\STO_Man_WcfService\StoDescktopClient\bin\Debug\StoDescktopClient.pdb
+D:\Viktor\Job\Min_UST\test\STO_Man_WcfService\StoDescktopClient\obj\Debug\StoDescktopClient.Properties.Resources.resources
+D:\Viktor\Job\Min_UST\test\STO_Man_WcfService\StoDescktopClient\obj\Debug\StoDescktopClient.csproj.GenerateResource.cache
+D:\Viktor\Job\Min_UST\test\STO_Man_WcfService\StoDescktopClient\obj\Debug\StoDescktopClient.exe
+D:\Viktor\Job\Min_UST\test\STO_Man_WcfService\StoDescktopClient\obj\Debug\StoDescktopClient.pdb
+D:\Viktor\Job\Min_UST\test\STO_Man_WcfService\StoDescktopClient\obj\Debug\StoDescktopClient.StoForm.resources
+D:\Viktor\Job\Min_UST\test\STO_Man_WcfService\StoDescktopClient\obj\Debug\StoDescktopClient.Forms.ErrorForm.resources
+D:\Viktor\Job\Min_UST\test\STO_Man_WcfService\StoDescktopClient\obj\Debug\StoDescktopClient.csproj.CoreCompileInputs.cache

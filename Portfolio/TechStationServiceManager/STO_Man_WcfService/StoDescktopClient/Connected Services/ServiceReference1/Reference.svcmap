@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="aedafcc9-cc07-4b53-9422-7580c90c034a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:62556/StoService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="StoService.wsdl" MetadataType="Wsdl" ID="6737b7a4-6209-459a-99ed-3e422e06de88" SourceId="1" SourceUrl="http://localhost:62556/StoService.svc?wsdl" />
+    <MetadataFile FileName="StoService2.xsd" MetadataType="Schema" ID="32450b9f-6700-4440-b698-eaa290a7b9c7" SourceId="1" SourceUrl="http://localhost:62556/StoService.svc?xsd=xsd0" />
+    <MetadataFile FileName="StoService.disco" MetadataType="Disco" ID="b9577131-1c2b-426b-a543-4fffb44ece53" SourceId="1" SourceUrl="http://localhost:62556/StoService.svc?disco" />
+    <MetadataFile FileName="StoService3.xsd" MetadataType="Schema" ID="37e7c893-67cc-476b-aac9-6e0e8d12b34f" SourceId="1" SourceUrl="http://localhost:62556/StoService.svc?xsd=xsd1" />
+    <MetadataFile FileName="StoService.xsd" MetadataType="Schema" ID="f8310bf9-b918-48fc-b6b3-0288cebfbf7a" SourceId="1" SourceUrl="http://localhost:62556/StoService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

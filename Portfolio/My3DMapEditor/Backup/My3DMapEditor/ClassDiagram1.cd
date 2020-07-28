@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="FullSignature">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="My3DMapEditor.ExtendedImageList" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>ExtendedImageList.cs</FileName>
+      <HashCode>ACoAIgAAQiAACJAAAIDECAACAAAYABACEGAAASABAAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="My3DMapEditor.Form1" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Form1.cs</FileName>
+      <HashCode>XXOP8J+P0TxIMEJioQzF4xtig6NYFooG2WdaDSRvgCA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="My3DMapEditor.Form1.myDelecateRedraw2D">
+        <TypeIdentifier>
+          <NewMemberFileName>Form1.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="My3DMapEditor.Form1.DelegatePanelScrolling">
+        <TypeIdentifier>
+          <NewMemberFileName>Form1.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+  </Class>
+  <Class Name="My3DMapEditor.Grid2D" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Grid2D.cs</FileName>
+      <HashCode>AEAAACAAACAAGBAAAAgAAAAAAAAAAAAAAAEAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="My3DMapEditor.Hollow" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Hollow.cs</FileName>
+      <HashCode>AAAAAAAAACAAABAAAACABAACAAQBAAAAEQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="My3DMapEditor.ImagesAndNames" Collapsed="true">
+    <Position X="0.5" Y="11" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>ImagesAndNames.cs</FileName>
+      <HashCode>AAAAIAAAACAAABAAAACAAAACAAAAAAAAAAAAAALBAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="My3DMapEditor.LinesSelection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>LinesSelection.cs</FileName>
+      <HashCode>EABgAAAAICIIAAAiCAAAAAkAQAABAAAQCAAAEBAAAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="1.55" Collapsed="true" />
+  </Class>
+  <Class Name="My3DMapEditor.Managed2DPrimitives" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Managed2DPrimitives.cs</FileName>
+      <HashCode>ICAgIACgICAAgABRgBAkMIACBAoIAAAAAAAAAABACgE=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="My3DMapEditor.MyObject" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Managed3D.cs</FileName>
+      <HashCode>CAAAAAAAACAABAAAAAQAAQAAABAAAAAAAAAAIQABCAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="My3DMapEditor.Managed3D" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Managed3D.cs</FileName>
+      <HashCode>CAAHMGAKAGAALARABQACAUAADBAAgIBIAAggCABMIAQ=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="My3DMapEditor.PickObject" Collapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>PickObject.cs</FileName>
+      <HashCode>AAAAAAAAMACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="My3DMapEditor.Player" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Player.cs</FileName>
+      <HashCode>AAAAAACAACAAAAAAAAAACAAREABAAKAAQAkAAABQAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="My3DMapEditor.Program" Collapsed="true">
+    <Position X="25.25" Y="13.25" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>Program.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="My3DMapEditor.RectPrimitive" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="10.25" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>RectPrimitive.cs</FileName>
+      <HashCode>AAAAAABQACAQEAAAEAAABIAAEACAAAAACAIAAAAACAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="My3DMapEditor.SimpleSelection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Selection.cs</FileName>
+      <HashCode>CAhAAAAIACAAAABAAEAgAgAAQAIIAEBAAAAAQAAMAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="My3DMapEditor.TexturesSettings" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>TexturesSettings.cs</FileName>
+      <HashCode>FAEEg0IhZDBIAVEIoEDOIJAuQgBADEBCwSwQJCWkRQQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AVGame.MATW" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>MATW.cs</FileName>
+      <HashCode>AAUAIAAEACgABBAoCKBAAAgAACVQCQwIQAAFABCCIAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="My3DMapEditor.Properties.Resources" Collapsed="true">
+    <Position X="8" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAgAAAAAABEgAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="My3DMapEditor.Properties.Settings" Collapsed="true">
+    <Position X="25.25" Y="11.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="My3DMapEditor.SelectTextureDelegate" Collapsed="true">
+    <Position X="5" Y="5" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>ExtendedImageList.cs</FileName>
+      <HashCode>AAAAAAAAAACAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="My3DMapEditor.SelectObjectDelegate" Collapsed="true">
+    <Position X="5" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>Form1.cs</FileName>
+      <HashCode>AAAQAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="My3DMapEditor.Update3DPrimitiveCoordsDelegate">
+    <Position X="3.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>Form1.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="My3DMapEditor.MouseClick3DDelegate" Collapsed="true">
+    <Position X="5" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>Managed3D.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="My3DMapEditor.ApplyDelegate" Collapsed="true">
+    <Position X="5" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>TexturesSettings.cs</FileName>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="My3DMapEditor.ChangeTexturePositionDelegate" Collapsed="true">
+    <Position X="5" Y="2.5" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>TexturesSettings.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAADTAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="My3DMapEditor.HideSelectionDelegate" Collapsed="true">
+    <Position X="5" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>TexturesSettings.cs</FileName>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="My3DMapEditor.TextureFormKeyDownDelegate" Collapsed="true">
+    <Position X="5" Y="4" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>TexturesSettings.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+</ClassDiagram>

@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="StoService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:62556/StoService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:62556/StoService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:62556/StoService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/STO_Man_WcfService.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IStoService_SelectStations_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectStations" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_SelectStations_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectStationsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_SelectStation_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectStation" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_SelectStation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectStationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_CreateStation_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateStation" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_CreateStation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateStationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_UpdateStation_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateStation" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_UpdateStation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateStationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_CreateOrUpdateStation_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateOrUpdateStation" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_CreateOrUpdateStation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateOrUpdateStationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_DeleteStation_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteStation" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_DeleteStation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteStationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_SelectServices_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectServices" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_SelectServices_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectServicesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_SelectService_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectService" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_SelectService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_CreateService_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateService" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_CreateService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_UpdateService_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateService" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_UpdateService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_CreateOrUpdateService_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateOrUpdateService" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_CreateOrUpdateService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateOrUpdateServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_DeleteService_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteService" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_DeleteService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_SelectServedCars_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectServedCars" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_SelectServedCars_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectServedCarsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_SelectServedCar_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectServedCar" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_SelectServedCar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectServedCarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_CreateServedCar_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateServedCar" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_CreateServedCar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateServedCarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_UpdateServedCar_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateServedCar" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_UpdateServedCar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateServedCarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_CreateOrUpdateServedCar_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateOrUpdateServedCar" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_CreateOrUpdateServedCar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateOrUpdateServedCarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_DeleteServedCar_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteServedCar" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_DeleteServedCar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteServedCarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_SelectServedCarsByStation_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectServedCarsByStation" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_SelectServedCarsByStation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectServedCarsByStationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_SelectServedCarsByAllStation_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectServedCarsByAllStation" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_SelectServedCarsByAllStation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectServedCarsByAllStationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_LoadFirstData_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadFirstData" />
+  </wsdl:message>
+  <wsdl:message name="IStoService_LoadFirstData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadFirstDataResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IStoService">
+    <wsdl:operation name="SelectStations">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStoService/SelectStations" message="tns:IStoService_SelectStations_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStoService/SelectStationsResponse" message="tns:IStoService_SelectStations_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectStation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStoService/SelectStation" message="tns:IStoService_SelectStation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStoService/SelectStationResponse" message="tns:IStoService_SelectStation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateStation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStoService/CreateStation" message="tns:IStoService_CreateStation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStoService/CreateStationResponse" message="tns:IStoService_CreateStation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStoService/UpdateStation" message="tns:IStoService_UpdateStation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStoService/UpdateStationResponse" message="tns:IStoService_UpdateStation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateOrUpdateStation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStoService/CreateOrUpdateStation" message="tns:IStoService_CreateOrUpdateStation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStoService/CreateOrUpdateStationResponse" message="tns:IStoService_CreateOrUpdateStation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteStation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStoService/DeleteStation" message="tns:IStoService_DeleteStation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStoService/DeleteStationResponse" message="tns:IStoService_DeleteStation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectServices">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStoService/SelectServices" message="tns:IStoService_SelectServices_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStoService/SelectServicesResponse" message="tns:IStoService_SelectServices_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStoService/SelectService" message="tns:IStoService_SelectService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStoService/SelectServiceResponse" message="tns:IStoService_SelectService_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStoService/CreateService" message="tns:IStoService_CreateService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStoService/CreateServiceResponse" message="tns:IStoService_CreateService_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStoService/UpdateService" message="tns:IStoService_UpdateService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStoService/UpdateServiceResponse" message="tns:IStoService_UpdateService_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateOrUpdateService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStoService/CreateOrUpdateService" message="tns:IStoService_CreateOrUpdateService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStoService/CreateOrUpdateServiceResponse" message="tns:IStoService_CreateOrUpdateService_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteService">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStoService/DeleteService" message="tns:IStoService_DeleteService_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStoService/DeleteServiceResponse" message="tns:IStoService_DeleteService_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectServedCars">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStoService/SelectServedCars" message="tns:IStoService_SelectServedCars_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStoService/SelectServedCarsResponse" message="tns:IStoService_SelectServedCars_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectServedCar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStoService/SelectServedCar" message="tns:IStoService_SelectServedCar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStoService/SelectServedCarResponse" message="tns:IStoService_SelectServedCar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateServedCar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStoService/CreateServedCar" message="tns:IStoService_CreateServedCar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStoService/CreateServedCarResponse" message="tns:IStoService_CreateServedCar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateServedCar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStoService/UpdateServedCar" message="tns:IStoService_UpdateServedCar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStoService/UpdateServedCarResponse" message="tns:IStoService_UpdateServedCar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateOrUpdateServedCar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStoService/CreateOrUpdateServedCar" message="tns:IStoService_CreateOrUpdateServedCar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStoService/CreateOrUpdateServedCarResponse" message="tns:IStoService_CreateOrUpdateServedCar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteServedCar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStoService/DeleteServedCar" message="tns:IStoService_DeleteServedCar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStoService/DeleteServedCarResponse" message="tns:IStoService_DeleteServedCar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectServedCarsByStation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStoService/SelectServedCarsByStation" message="tns:IStoService_SelectServedCarsByStation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStoService/SelectServedCarsByStationResponse" message="tns:IStoService_SelectServedCarsByStation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectServedCarsByAllStation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStoService/SelectServedCarsByAllStation" message="tns:IStoService_SelectServedCarsByAllStation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStoService/SelectServedCarsByAllStationResponse" message="tns:IStoService_SelectServedCarsByAllStation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadFirstData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStoService/LoadFirstData" message="tns:IStoService_LoadFirstData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStoService/LoadFirstDataResponse" message="tns:IStoService_LoadFirstData_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IStoService" type="tns:IStoService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SelectStations">
+      <soap:operation soapAction="http://tempuri.org/IStoService/SelectStations" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectStation">
+      <soap:operation soapAction="http://tempuri.org/IStoService/SelectStation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateStation">
+      <soap:operation soapAction="http://tempuri.org/IStoService/CreateStation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStation">
+      <soap:operation soapAction="http://tempuri.org/IStoService/UpdateStation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateOrUpdateStation">
+      <soap:operation soapAction="http://tempuri.org/IStoService/CreateOrUpdateStation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteStation">
+      <soap:operation soapAction="http://tempuri.org/IStoService/DeleteStation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectServices">
+      <soap:operation soapAction="http://tempuri.org/IStoService/SelectServices" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectService">
+      <soap:operation soapAction="http://tempuri.org/IStoService/SelectService" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateService">
+      <soap:operation soapAction="http://tempuri.org/IStoService/CreateService" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateService">
+      <soap:operation soapAction="http://tempuri.org/IStoService/UpdateService" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateOrUpdateService">
+      <soap:operation soapAction="http://tempuri.org/IStoService/CreateOrUpdateService" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteService">
+      <soap:operation soapAction="http://tempuri.org/IStoService/DeleteService" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectServedCars">
+      <soap:operation soapAction="http://tempuri.org/IStoService/SelectServedCars" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectServedCar">
+      <soap:operation soapAction="http://tempuri.org/IStoService/SelectServedCar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateServedCar">
+      <soap:operation soapAction="http://tempuri.org/IStoService/CreateServedCar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateServedCar">
+      <soap:operation soapAction="http://tempuri.org/IStoService/UpdateServedCar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateOrUpdateServedCar">
+      <soap:operation soapAction="http://tempuri.org/IStoService/CreateOrUpdateServedCar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteServedCar">
+      <soap:operation soapAction="http://tempuri.org/IStoService/DeleteServedCar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectServedCarsByStation">
+      <soap:operation soapAction="http://tempuri.org/IStoService/SelectServedCarsByStation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectServedCarsByAllStation">
+      <soap:operation soapAction="http://tempuri.org/IStoService/SelectServedCarsByAllStation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadFirstData">
+      <soap:operation soapAction="http://tempuri.org/IStoService/LoadFirstData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="StoService">
+    <wsdl:port name="BasicHttpBinding_IStoService" binding="tns:BasicHttpBinding_IStoService">
+      <soap:address location="http://localhost:62556/StoService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

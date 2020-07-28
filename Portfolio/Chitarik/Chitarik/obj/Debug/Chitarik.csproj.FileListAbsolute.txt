@@ -1,0 +1,12 @@
+\\WORKSTATION\LibraryFiles\Projects\Programming\Актуальные_Проекты\Читалка\Chitarik\Chitarik\obj\Debug\Chitarik.exe
+\\WORKSTATION\LibraryFiles\Projects\Programming\Актуальные_Проекты\Читалка\Chitarik\Chitarik\obj\Debug\Chitarik.pdb
+J:\LibraryFiles\Projects\Programming\Актуальные_Проекты\Читалка\Chitarik\Chitarik\obj\Debug\ResolveAssemblyReference.cache
+J:\LibraryFiles\Projects\Programming\Актуальные_Проекты\Читалка\Chitarik\Chitarik\obj\Debug\Chitarik.Accent_UC.resources
+J:\LibraryFiles\Projects\Programming\Актуальные_Проекты\Читалка\Chitarik\Chitarik\obj\Debug\Chitarik.Form_Settings.resources
+J:\LibraryFiles\Projects\Programming\Актуальные_Проекты\Читалка\Chitarik\Chitarik\obj\Debug\Chitarik.Properties.Resources.resources
+J:\LibraryFiles\Projects\Programming\Актуальные_Проекты\Читалка\Chitarik\Chitarik\obj\Debug\Chitarik.csproj.GenerateResource.Cache
+J:\LibraryFiles\Projects\Programming\Актуальные_Проекты\Читалка\Chitarik\Chitarik\bin\Debug\Chitarik.exe
+J:\LibraryFiles\Projects\Programming\Актуальные_Проекты\Читалка\Chitarik\Chitarik\bin\Debug\Chitarik.pdb
+J:\LibraryFiles\Projects\Programming\Актуальные_Проекты\Читалка\Chitarik\Chitarik\obj\Debug\Chitarik.exe
+J:\LibraryFiles\Projects\Programming\Актуальные_Проекты\Читалка\Chitarik\Chitarik\obj\Debug\Chitarik.pdb
+J:\LibraryFiles\Projects\Programming\Актуальные_Проекты\Читалка\Chitarik\Chitarik\obj\Debug\Chitarik.Form2.resources
